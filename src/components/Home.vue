@@ -139,6 +139,7 @@ export default {
   methods: {
     submitContact(e) {
       e.preventDefault();
+      API.submitContact(this.contact);
     },
   },
 };
@@ -331,7 +332,7 @@ ul.qualifications {
     box-sizing: border-box;
     color: lighten(#00aeef, 10%);
     font-weight: 300;
-    font-size: 1.8em;
+    font-size: 1.5em;
     resize: none;
     padding: 10px;
     width: 100%;

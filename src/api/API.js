@@ -1,4 +1,4 @@
-// import axios from 'axios';
+import axios from 'axios';
 
 const getDefaultQualifications = () => ([
   {
@@ -36,5 +36,9 @@ export default {
     return new Promise((resolve) => {
       resolve(getDefaultQualifications());
     });
+  },
+
+  submitContact(contact) {
+    return axios.post('/contact', contact);
   },
 };
