@@ -30,6 +30,15 @@ export default {
 
 <style lang='scss' scoped>
 #blog {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 14px 26px -12px rgba(#000, 0.42), 0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(#000, 0.2);
+  display: inline-block;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20%;
+  width: 100%;
 
   ul {
     list-style-type: none;
@@ -37,8 +46,6 @@ export default {
     padding: 0;
 
     li.post {
-      border: 1px solid #ccc;
-      border-radius: 4px;
       display: block;
       margin-bottom: 20px;
       padding: 10px 20px;
@@ -48,7 +55,7 @@ export default {
         font-weight: normal;
 
         a {
-          color: #42b983;
+          color: #00aeef;
         }
       }
 

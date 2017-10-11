@@ -24,15 +24,13 @@
 
     <!-- Photo Background -->
     <div class="photo-background">
-      <img src="http://via.placeholder.com/1680x600" />
+      <img src="/static/img/banner-beach.png" fallback="http://via.placeholder.com/1680x600" />
     </div>
 
     <!-- Content -->
     <div class="content">
       <router-view></router-view>
     </div>
-
-    <!-- Footer -->
   </div>
 </template>
 
@@ -54,9 +52,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
+  background-color: #00aeef;
   color: #00aeef;
   margin-left: auto;
   margin-right: auto;
+  height: 100vh;
 
   .header {
     align-items: center;
@@ -110,7 +110,7 @@ body {
   }
 
   .content {
-    height: 100vh;
+    width: 100%;
   }
 }
 </style>
