@@ -8,7 +8,13 @@
       <div class="box-column box-white">
         <h2>About Me</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et congue turpis. Duis at rhoncus urna. Curabitur laoreet lorem ut arcu euismod lobortis. Suspendisse in euismod sem. Etiam vel efficitur enim. Aenean id lobortis libero. Proin sagittis non mauris in commodo. Phasellus tempus, mauris eget mollis efficitur, mauris ligula consequat orci, sed ullamcorper eros nisl non tortor. Fusce et sodales urna. Nunc eu velit sem.
+          Hi, I am Nick. I was born in the suburbs of Arlington, Texas.
+          I went to college at the University of Texas at Austin, and fell in love with living a big city.
+          When I graduated with my Bachelor's in Computer Science in 2015,
+          I decided to stick around and found a job working at a fast-paced
+          startup, Broadleaf Commerce, building software for Fortune 500 companies.
+          While I love to code, I also enjoy listening to music, going for hikes,
+          and traveling the world.
         </p>
         <ul class="attribute-list">
           <li>

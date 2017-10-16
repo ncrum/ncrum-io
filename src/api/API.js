@@ -9,7 +9,7 @@ const getDefaultQualifications = () => ([
     type: 'WORK',
   },
   {
-    dateRange: '2015 - 206',
+    dateRange: '2015 - 2016',
     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque nec congue risus. In non nulla lacus. Maecenas eros sapien, eleifend quis augue eu, pellentesque tincidunt tellus',
     organization: 'Broadleaf Commerce',
     title: 'Software Engineer',
