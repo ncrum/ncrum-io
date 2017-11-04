@@ -2,6 +2,7 @@ const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
+const favicon = require('serve-favicon');
 
 const transporter = nodemailer.createTransport({
   service: 'gmail',
@@ -34,6 +35,8 @@ app.post('/contact', (req, res) => {
 });
 
 app.use('/static', express.static(path.join(__dirname, 'dist/static')));
+
+app.use(favicon(path.join(__dirname, 'dist/static/favicon.ico')));
 
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'dist/index.html'));
