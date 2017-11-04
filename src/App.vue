@@ -10,7 +10,7 @@
       <div class="nav-container">
         <ul>
           <li>
-            <router-link to="/">Home</router-link>
+            <router-link to="/">About Me</router-link>
           </li>
           <!-- <li>
             <router-link to="/blog">Blog</router-link>
