@@ -26,9 +26,6 @@
           <li>
             <span>Experience</span>&nbsp;+2 Years
           </li>
-          <li>
-            <span>Email</span>&nbsp;ncrumryan@gmail.com
-          </li>
         </ul>
       </div>
     </div>
@@ -37,7 +34,12 @@
       <div class="box-column box-white">
         <h2>My Skills</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et congue turpis. Duis at rhoncus urna. Curabitur laoreet lorem ut arcu euismod lobortis. Suspendisse in euismod sem. Etiam vel efficitur enim. Aenean id lobortis libero. Proin sagittis non mauris in commodo. Phasellus tempus, mauris eget mollis efficitur, mauris ligula consequat orci, sed ullamcorper eros nisl non tortor. Fusce et sodales urna. Nunc eu velit sem.
+          I love to write code. It doesn't matter what language or what project
+          I'm working on; I will likely enjoy it.
+          I consider myself a full-stack developer, as my day-to-day
+          involves writing code for everything from the frontend to the backend.
+          Most of my experience is in building enterprise e-Commerce software
+          systems and web applications for large companies.
         </p>
         <ul class="attribute-list">
           <li>
@@ -47,7 +49,7 @@
             <span>Backend</span>&nbsp;Java, NodeJS, Express/Koa/Hapi, Python
           </li>
           <li>
-            <span>Data</span>&nbsp;Solr, Mysql/MariaDB/Oracle, MongoDB
+            <span>Data</span>&nbsp;Solr, MySql/MariaDB/Oracle, MongoDB
           </li>
         </ul>
       </div>
