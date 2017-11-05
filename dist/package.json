@@ -1,0 +1,10 @@
+{
+  "name": "ncrum.io deploy",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "author": "Nick Crum <github.com/ncrum>",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express body-parser serve-favicon nodemailer"
+  }
+}
