@@ -34,12 +34,12 @@ app.post('/contact', (req, res) => {
   });
 });
 
-app.use('/static', express.static(path.join(__dirname, 'dist/static')));
+app.use('/static', express.static(path.join(__dirname, 'static')));
 
-app.use(favicon(path.join(__dirname, 'dist/static/favicon.ico')));
+app.use(favicon(path.join(__dirname, 'static/favicon.ico')));
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist/index.html'));
+  res.sendFile(path.join(__dirname, 'index.html'));
 });
 
 const PORT = process.env.PORT || 8080;
