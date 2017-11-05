@@ -44,6 +44,10 @@ export default {
 body {
   margin: 0;
 }
+
+.photo-background {
+  min-height: 42vw;
+}
 </style>
 
 <style lang='scss' scoped>
