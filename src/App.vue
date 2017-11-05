@@ -24,7 +24,7 @@
 
     <!-- Photo Background -->
     <div class="photo-background">
-      <img src="/static/img/banner-beach.png" fallback="http://via.placeholder.com/1680x600" />
+      <img src="/static/img/banner-beach.jpg" fallback="http://via.placeholder.com/1680x600" />
     </div>
 
     <!-- Content -->
